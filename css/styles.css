@@ -295,6 +295,12 @@ td {
   color: #30261D;
 }
 
+.light-table#light-table tr th {
+  background: #FEFAF1;
+  color: #30261D;
+  font-size: 4px;
+}
+
 .light-table#light-table tr td {
   background: #FEFAF1;
   color: #30261D;
@@ -309,6 +315,11 @@ td {
     border-bottom: 1px dotted #30261D;
     width: 100%;
     
+}
+.dashed-divider {
+  border-bottom: 1px solid #30261D;
+  width: 100%;
+  
 }
 .smoothie-description {
   font-size: 5px;
