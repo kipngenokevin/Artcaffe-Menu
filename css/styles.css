@@ -154,6 +154,7 @@ p {
 .coffee-class {
   background: #30261D;
   margin-top: -20px;
+  padding: 0px 10px;
 }
 
 .coffee-class h2 {
@@ -225,16 +226,69 @@ td {
 .coffee-description {
   padding: 6px 20px;
   background: #30261D;
-  font-size: 5px;
+  font-size: 4px;
   text-align: center;
   line-height: 0%;
   display: flex;
   align-items: center;
   margin-top: 5px;
+  width: 100%;
+  justify-content: center;
 }
 
 .coffee-description-text {
   padding: 5px;
-  background: #FEFAF1;
-  line-height: 0%;
+  background: #E2DAC8;
+  line-height:4px;
+  width: 100%;
 }
+
+.p1 p, .p2 p{
+  background: #E2DAC8;
+  font-style: italic;
+}
+.p1 p b, .p2 p b {
+  background: #E2DAC8;
+  font-style: italic;
+}
+
+.iced-teas-section  {
+  background: #FEFAF1;
+  color: #30261D;
+}
+
+.iced-teas-section  {
+  background: #FEFAF1;
+ }
+
+.iced-teas-and-coffees {
+  padding: 0 10px;
+}
+
+.iced-teas-and-coffees h2{
+  font-size: 15px;
+  text-align: center;
+  weight: 100%;
+}
+
+.iced-table  {
+  background: #FEFAF1;
+  color: #30261D;
+}
+
+.iced-table#iced-table tr td {
+  background: #FEFAF1;
+  color: #30261D;
+  font-size: 5px;
+}
+
+.iced-table#iced-table .item {
+  font-size: 10px;
+}
+
+.dashed {
+    border-bottom: 1px dashed #30261D;
+    width: 100%;
+    
+}
+
