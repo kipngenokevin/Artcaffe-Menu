@@ -6,7 +6,7 @@
 
 * {
   font-family: 'Oswald', sans-serif, 'DM Serif Display', serif;
-  background: var(--artcaffe-light);
+  
   margin: 0;
   padding: 0;
 }
@@ -14,6 +14,8 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  background: var(--artcaffe-light);
 
 }
 
@@ -143,6 +145,11 @@ p {
   display: flex;
   justify-content: center;
   gap: 1.2rem;
+  color:#30261D;
+}
+
+.social-icons i {
+  background: none;
 }
 
 
@@ -327,9 +334,120 @@ td {
   margin-top: -8px;
   text-align: center;
 }
+
+.smoothie-description i {
+  background: #FEFAF1;
+  color: #30261D;
+}
+
 .item-description {
   font-size: 5px;
   font-family: serif;
   font-style: italic;
 }
+.video-section {
+  position: relative;
+  background: #30261D;
+  width: 100vw !important; 
+  overflow-x: hidden;
+  padding: 20px 40px;
+  left: 0;
+  right: 0;
+  margin-left: -15px;
+  
+}
+
+.video-player video{
+  width: 100%;
+}
+
+.everyday-breakfast-section {
+  outline: 2px solid #30261D;
+  margin-top: 5px;
+  padding: 2px 2px 2px 2px; 
+  line-height: 5px;
+}
+.everyday-breakfast {
+  color: hsl(42, 87%, 97%);
+  border: 2px solid #30261D;
+  height: min-content;
+  background: #30261D;
+  
+}
+.everyday-title {
+  display: flex;
+  border-style: none!important;
+  background: #30261D;
+  padding: 3px;
+  margin: 0;
+}
+
+.big-text-1, .big-text-2 {
+  border-style: none!important;
+}
+
+.big-text-1 h4, .big-text-2 h4{
+  border-style: none!important;
+  background: #30261D;
+  font-family: serif;
+  font-weight: 300;
+  font-size: 15px;
+
+}
+
+.everyday-p, .everyday-p p, i{
+  background: #30261D;
+  font-size: 5px;
+  margin-top: -10px;
+}
+
+.everyday-light-section {
+  outline: 2px solid #30261D;
+  padding: 2px;
+  margin-top: 6px;
+}
+
+.everyday-light {
+  border: 1px solid #30261D;
+  line-height: 80%;
+  height: 70px;
+}
+
+.everyday-title-light {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.big-text-light-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -12px;
+}
+.big-text-light-1 p {
+  font-size: 8px;
+  margin-top: 12px;
+}
+
+.big-text-light-more {
+  display: flex;
+  font-size: 12px;
+  margin-top: -12px;
+}
+.big-text-light-more h4{
+  display: flex;
+  font-size: 12px;
+}
+
+.big-text-light-2 h4{
+  font-family: 'serif';
+}
+.everyday-light-p {
+  font-size: 6px;
+  margin-top: -12px;
+}
+
+
+
+
 
