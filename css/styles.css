@@ -144,6 +144,9 @@ p {
 .social-icons {
   display: flex;
   justify-content: center;
+  line-height: normal;
+  margin-top: 10px;
+  align-items: center;
   gap: 1.2rem;
   color:#30261D;
 }
@@ -195,7 +198,7 @@ p {
 }
 
 
-.coffee-table tr,
+.coffee-table#coffee-table tr
 th {
   border: none;
   border-collapse: collapse;
@@ -206,13 +209,23 @@ th {
   border-style: none;
 }
 
-.coffee-table tr,
+
+.coffee-table#coffee-table tr
 td {
-  color: #FEFAF1;
-  background: #30261D;
   border: none;
   border-collapse: collapse;
   font-family: serif;
+  background: #30261D;
+  border-collapse: collapse;
+  color: #FEFAF1;
+
+}
+.coffee-table#coffee-table .item{
+  font-family: 'Oswald';
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
 
 }
 
@@ -225,26 +238,25 @@ td {
 
 .booz-coffee {
   background: #30261D;
+  margin-top: -10px;
 }
 
-.booz-coffee tr,
-th {
-  border: none;
-  border-collapse: collapse;
-  background: #30261D;
+
+.boozy-coffee td
+ {
   color: #FEFAF1;
+  background: #30261D;
+  border: none;
   font-size: 5px;
-  font-family: 'DM Serif Display';
-  border-style: none;
-}
-
-.booz-coffee th,
-td {
-  color: #FEFAF1;
-  background: #30261D;
-  border: none;
   border-collapse: collapse;
   font-family: serif;
+}
+.boozy-coffee .item {
+  font-family: 'Oswald';
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .coffee-description {
@@ -446,6 +458,30 @@ td {
   font-size: 6px;
   margin-top: -12px;
 }
+
+.fresh-baked-section {
+  outline: 1px solid #30261D;
+  padding: 2px;
+}
+
+.fresh-baked {
+  border: 1px solid #30261D;
+}
+
+
+.fresh-baked-table#fresh-baked-table  tr, td{
+  border: none;  
+  border-collapse: collapse;
+  background: #FEFAF1;
+  color: #30261D;
+}
+.price {
+  font-family: serif;
+  font-size: 5px;
+  font-weight: bold;
+}
+
+
 
 
 
