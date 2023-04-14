@@ -480,6 +480,64 @@ td {
   font-size: 5px;
   font-weight: bold;
 }
+.add {
+  font-family: serif;
+  font-size: 6px;
+}
+.art-breakfast-section {
+  background: #FEFAF1;
+  color: #30261D;
+}
+.art-breakfast {
+  text-align: center;
+  background: #FEFAF1;
+  padding: 1px;
+
+}
+.art-breakfast p {
+ line-height: 80%;
+ margin-top: -8px;
+
+
+}
+
+.art-breakfast p i{
+  text-align: center;
+  background: #FEFAF1;
+  color: #30261D;
+  line-height: 0%;
+  font-family: serif;
+
+}
+.bottom {
+  background: #E2DAC8;
+}
+.bottom span {
+  position: relative;
+  font-family: serif;
+  margin-top:-30px;
+  font-size: 6px;
+  font-style: italic;
+  font-weight: 800;
+
+}
+.bottom i {
+  background: #E2DAC8 !important;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+  padding: 22px 12px;
+}
+
+.footer-social {
+  font-size: 24px;
+}
+
+
 
 
 
