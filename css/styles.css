@@ -491,7 +491,7 @@ td {
 .art-breakfast {
   text-align: center;
   background: #FEFAF1;
-  padding: 1px;
+  padding: 0px 1px;
 
 }
 .art-breakfast p {
@@ -535,6 +535,31 @@ td {
 
 .footer-social {
   font-size: 24px;
+}
+
+.art-bakery-section {
+  border: 1px solid #30261D;
+  background: #FEFAF1;
+  padding: 2px;
+  color: #30261D;
+  margin-top: 8px;
+}
+
+.art-bakery {
+  background: #E2DAC8;
+  color: #30261D;
+  padding: 2px;
+}
+
+.art-bakery-table#art-bakery-table tr td{
+  border: none;
+  border-collapse: collapse;
+}
+
+.art-bakery-table#art-bakery-table tr td{
+  border: none;
+  border-collapse: collapse;
+  background: #E2DAC8;
 }
 
 
