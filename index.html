@@ -1110,7 +1110,7 @@
 
         function nextSlide1() {
             slides1[currentSlide1].style.opacity = "0";
-            currentSlide = (currentSlide1 + 1) % slides1.length;
+            currentSlide1 = (currentSlide1 + 1) % slides1.length;
             slides1[currentSlide1].style.opacity = "1";
             if (slides1[currentSlide1].querySelector("video")) {
                 slides1[currentSlide1].querySelector("video").play();
